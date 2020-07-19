@@ -20,7 +20,7 @@ $(function(){
 
     })
  
-    backToTop.on('click', function(){
+    $('.backToTop, .up').on('click', function(){
         $('html,body').animate({
             scrollTop:0
         },1000)
@@ -32,5 +32,12 @@ $(function(){
     //     slidesToShow: 3,
         
     //   });
+
+    // couner js code start 
+    $('.counter').counterUp({
+        delay: 10,
+        time: 2000
+    });
+    // couner js code end 
     
 })

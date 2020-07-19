@@ -316,7 +316,9 @@ h4{
 }
 #skill .skill_info .Graphic p span{
     float: left;
-    margin-left: 35px;
+}
+#skill .skill_info .Graphic p .counter{
+    margin-left: 25px;
 }
 #skill .skill_info .Graphic .empty{
     width: 410px;
@@ -371,9 +373,6 @@ h4{
 #skill .skill_info .four{
     margin-top: 20px;
 }
-#skill .skill_info .two p span{
-    margin-left: 55px;
-}
 #skill:hover .one .empty::before{
     visibility: visible;
     opacity: 1;
@@ -386,17 +385,11 @@ h4{
     width: 85%;
     background-color: #5d3b15;
 }
-#skill .skill_info .three p span{
-    margin-left: 95px;
-}
 #skill:hover .three .empty::before{
     visibility: visible;
     opacity: 1;
     width: 75%;
     background-color: #344a1f;
-}
-#skill .skill_info .four p span{
-    margin-left: 75px;
 }
 #skill:hover .four .empty::before{
     visibility: visible;
@@ -1045,7 +1038,7 @@ h4{
 /* ========== footer css end ========== */
 
 .backToTop{
-    width: 45px;
+    width: 40px;
     height: 40px;
     color: #ffffff;
     font-size: 25px;
